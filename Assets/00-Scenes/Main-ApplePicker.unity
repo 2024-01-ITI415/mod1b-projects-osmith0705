@@ -232,10 +232,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee305e07c6add8d4095f132000a3d492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  applePrefab: {fileID: 0}
-  speed: 1
-  edge: 10
-  chanceToChangeDirections: 0.1
+  applePrefab: {fileID: 2493462581943004587, guid: 3ff87072022032b4791243e290da5c28, type: 3}
+  speed: 15
+  edge: 20
+  chanceToChangeDirections: 0.03
   seconds: 1
 --- !u!1 &1572004184
 GameObject:
@@ -345,7 +345,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6767129892971235245, guid: 91482b7e2b6beb84fa53dabe1225ff15, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 10
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 6767129892971235245, guid: 91482b7e2b6beb84fa53dabe1225ff15, type: 3}
       propertyPath: m_LocalPosition.z
@@ -379,9 +379,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7280174028442683150, guid: 91482b7e2b6beb84fa53dabe1225ff15, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 7945853747896373574, guid: 91482b7e2b6beb84fa53dabe1225ff15, type: 3}
       propertyPath: m_Name
       value: AppleTree
+      objectReference: {fileID: 0}
+    - target: {fileID: 7945853747896373574, guid: 91482b7e2b6beb84fa53dabe1225ff15, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8053825263094532152, guid: 91482b7e2b6beb84fa53dabe1225ff15, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8200622976730665373, guid: 91482b7e2b6beb84fa53dabe1225ff15, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
