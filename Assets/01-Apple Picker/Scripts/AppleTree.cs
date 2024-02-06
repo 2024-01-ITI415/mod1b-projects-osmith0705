@@ -19,10 +19,13 @@ public class AppleTree : MonoBehaviour
     //drop apple frequency
     public float seconds = 1f;
 
+    //bottom of the world
+    public static float bottom = -20f;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        DropApple();
     }
 
     // Update is called once per frame
@@ -40,7 +43,6 @@ public class AppleTree : MonoBehaviour
         {
             speed = -Mathf.Abs(speed);
         }
-        
     }
     private void FixedUpdate()
     {
